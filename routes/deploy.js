@@ -14,7 +14,7 @@ launchBuild = function(dirName, otherArgs){
 };
 
 router.post('/', function(req, res){
-  var directory = '/home/synerzip/Projects/Production2.0/dev/BUBBLE/dev/chorizo';
+  var directory = 'some directory';
   launchBuild(directory, req.body);
   res.send(200, {code: 'ok'});
 });
